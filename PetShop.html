@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pet Shop</title>
+    <link rel="icon" type="image/png" href="images/favicon.png">
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="scripts/app.js"></script>
+    <script src="scripts/home.js"></script>
+    <script src="scripts/common.js"></script>
+
+</head>
+<body>
+    <div id="promo">  
+    <div>Spedizione gratuita</div>
+    <div style="display:none;">Nuovi giocattoli per cuccioli</div> 
+    <div style="display:none;">Acquista 5 giocattoli e risparmia il 30%</div>
+    <div style="display:none;">Spedizione il giorno stesso</div> 
+    </div>
+    <div id="menu-principale">
+        <div class="wrap">
+            <div id="link-principale">
+                <ul>
+                  <li>
+                     <a href="/">Home</a>
+                  </li>
+                  <li>
+                     <a href="/">Chi siamo</a>
+                  </li>
+                  <li>
+                     <a href="/">Shop</a>
+                  </li>
+                  <li>
+                     <a href="/">Contatti</a>
+                  </li>
+                </ul>
+            </div>
+            <a class="logo" href="/">PET SHOP</a>
+    </div>
+    <div class="wrap">
+        <div id="banner">
+            <h1 class="logo">PET SHOP</h1>
+            <div id="azione">
+                <a href="/Shop">ACQUISTA</a>
+            </div>
+        </div>
+        <div class="spacer v80"></div>
+            <div id="featureCani" class="feature">
+            <div class="leftColumn">
+                <a class="featureImage">
+                    <img src="images/dog_feature_1.jpg">
+                </a>
+            </div>
+        <div class="rightColumn">
+            <div class="text">
+                <h2>CANI FELICI</h2>
+                <div class="subHeading">TUTTO PER IL TUO CANE</div>
+                <hr />
+                <p>Assicurati che il tuo cucciolo mangi bene e sia in salute
+                    coi nostri trattamenti per cani.
+                </p>
+                <div class="clear spacer v40"></div>
+                <a href="">CLICCA QUI</a>
+            </div>
+        </div>        
+            </div>
+            <div id="featurePesci" class="feature">
+                <div class="leftColumn">
+                  <div class="text">
+                      <h2>PASSIONE PESCI</h2>
+                      <div class="subHeading">LA PIU' AMPIA GAMMA DI PESCI</div>
+                      <hr />
+                      <p>Da interno e da esterno: ne abbiamo per tutti i gusti!</p>
+                      <div class="clear spacer v40"></div>
+                      <a href="">CLICCA QUI</a>
+                  </div>
+                </div>
+                <div class="rightColumn">
+                    <a class="featureImage" src="/Fish">
+                        <img src="images/fish_feature_1.jpg">
+                    </a>
+                </div>
+            </div>
+            <div class="clear spacer v20"></div>
+            <div id="immaginiPesci" class="middleImage">
+                <img src="images/fish_feature_2.jpg">
+                <div class="clear spacer v80"></div>
+            </div>
+        <div id="featureUcelli" class="feature">
+            <div class="leftColumn">
+                <div class="text">
+                    <h2>LECCORNIE PER UCCELLI</h2>
+                    <div class="subeHeading">RENDI FELICI I TUOI UCCELLINI</div>
+                    <hr />
+                    <p>Snack e mangimi deliziosi per ogni tipo di
+                       ogni tipo di uccello.
+                    </p>
+                <div class="spacer v40"></div>
+                <a href="">CLICCA QUI</a>
+                </div>
+                <div class="rightColumn">
+                    <a class="featureImage" src="/Bird">
+                        <img src="images/bird_feature.jpg">
+                    </a>
+                </div>
+                <div class="clear"></div>
+                <div id="immagineUccelli" class="middleImage">
+                    <img src="images/bird_feeder.jpg">
+                </div>
+                <div id="scrollInizioPag" title="Scroll ad inizio pagina">
+                <span>&uarr;</span> <!--controllare in css-->
+            </div>
+            <div class="clear spacer v40"></div>
+            <div id="contattaCi" class="feature">
+               <div class="leftColumn">
+                   <div class="text">
+                       <h2>CONTATTACI</h2>
+                       <hr />
+                       <p>TEL: 012-345-6789</p>
+                       <p>
+                           EMAIL: <a href="mailto:INFO@PETSHOP.COM"
+                                  class="emailLink">INFO@PETSHOP.COM</a></p>
+                        <p>
+                          PET SHOP<br />
+                          80  Strand<br />
+                          Londra<br />
+                          WC2R ORL 
+                        </p>
+                        <div class="rightColumn">
+                            <iframe src="https://www.google.com/maps/d/embed?mid=1KkjqMqrYmKwWUMkt8mBRKnYkLdc&hl=en&ehbc=2E312F" width="640" height="480"></iframe>
+                            <div class="clear spacer v80"></div>
+                            <div id="iscriviti">
+                                <h2>ISCRIVITI</h2>
+                                <form action="/subscribe" method="post">
+                                    <input name="email" type="text" placeholder="inserisci
+                                    il tuo indirizzo email" />
+                                    <input type="submit" value="Iscriviti ora" />
+                                </form>
+                            </div>
+                            <div id="footer">
+                                <ul>
+                                  <li>
+                                    <a href="/spedizione">Spedizione</a>  
+                                  </li>
+                                  <li>
+                                    <a href="/domandeFrequenti">Domande frequenti</a>  
+                                  </li>
+                                  <li>
+                                    <a href="/FAQ">FAQ</a>
+                                  </li>
+                                </ul>
+                            </div>
+                            <div id="copyright">
+                                <div>&copy; 2022 <span class="logo">PET SHOP</span>
+                                </div>
+                            </div>
+                        </div>
+                   </div>
+               </div> 
+            </div>
+            </div>
+        </div>
+        </div>
+        </div>    
+    </div>
+</div>
+</body>
+</html>
